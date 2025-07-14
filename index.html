@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Counter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="sidebar collapsed" id="sidebar">
+            <h2>Activity Log</h2>
+            <ul id="logList"></ul>
+        </div>
+
+        <div class="main">
+            <div class="app">
+                <div class="top-bar">
+                    <div id="toggleSidebar" class="hamburger">☰</div>
+
+                    <div class="theme-toggle">
+                        <label>
+                            <input type="checkbox" id="themeSwitcher" />
+                            🌙 Dark Mode
+                        </label>
+                    </div>
+                </div>
+
+                <h1>📊 Multi-Counter Tracker</h1>
+
+                <div class="new-counter-form">
+                    <input type="text" id="counterName" placeholder="Enter counter name..." />
+                    <button id="addCounter">➕ Add Counter</button>
+                </div>
+
+                <div class="reset-all-container">
+                    <button id="resetAllCounters">🔄 Reset All Counters</button>
+                </div>
+
+                <div class="target-setup" style="text-align: center;">
+                    <label>
+                        <input type="checkbox" id="enableTarget" /> 🎯 Set Target (optional)
+                    </label>
+                    <div id="targetInputContainer" style="display: none; margin-top: 10px;">
+                        <input type="number" id="counterTarget" placeholder="Enter target value..." min="1" />
+                    </div>
+                </div>
+
+                <div id="countersContainer" class="counters-grid"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
