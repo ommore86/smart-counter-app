@@ -1,6 +1,7 @@
 # 📊 Trackerly - Smart Counter
 **Trackerly** is a powerful, beautiful, and user-friendly counter-tracking web app, perfect for tracking multiple goals, habits, values, or metrics all in one place.
-Designed with interactive UI, dark mode support, undo-redo history, and optional progress tracking. It’s far beyond a plus/minus counter!
+Designed with interactive UI, dark mode support, undo-redo history, and optional progress tracking.</br>
+It’s far beyond a plus/minus counter!
 
 
 ## 💡 What it does:
@@ -18,8 +19,11 @@ You can:
 
 
 ## 📸 Screenshots
-<img width="1055" height="768" alt="image" src="https://github.com/user-attachments/assets/ab73508c-772e-49a9-9d0a-757b9edab497" />
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/527e1c78-688f-4195-aad1-1bb6476dbff5" />
+### Home Page:
+<img width="1055" height="768" alt="Home Page" src="https://github.com/user-attachments/assets/ab73508c-772e-49a9-9d0a-757b9edab497" />
+
+### Activity Log & Dark UI:
+<img width="1366" height="768" alt="Activity Log and Dark UI" src="https://github.com/user-attachments/assets/527e1c78-688f-4195-aad1-1bb6476dbff5" />
 
 
 ## 🔧 Features
