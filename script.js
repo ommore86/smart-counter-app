@@ -18,7 +18,6 @@ function logAction(message) {
   logList.prepend(li);
 }
 
-// Theme toggle
 const themeSwitcher = document.getElementById("themeSwitcher");
 if (localStorage.getItem("theme") === "dark") {
   document.body.classList.add("dark");
@@ -29,7 +28,6 @@ themeSwitcher.addEventListener("change", () => {
   localStorage.setItem("theme", themeSwitcher.checked ? "dark" : "light");
 });
 
-// Sidebar toggle
 if (toggleSidebarBtn) {
   toggleSidebarBtn.addEventListener("click", () => {
     sidebar.classList.toggle("collapsed");
@@ -221,10 +219,8 @@ resetAllBtn.addEventListener("click", () => {
 });
 
 
-// Show/hide target input
 enableTarget.addEventListener("change", () => {
   targetInputContainer.style.display = enableTarget.checked ? "block" : "none";
 });
 
-// Initial load
 renderCounters();
