@@ -5,7 +5,6 @@ It’s far beyond a plus/minus counter!
 
 
 ## 💡 What it does:
-You can:
 - Create **multiple counters**, each with its own name and step value.
 - Use **increment**, **decrement**, **reset**, **undo**, and **redo** for each counter.
 - Can set **target** for progress tracking.
